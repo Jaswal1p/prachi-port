@@ -7,7 +7,7 @@ import { Redirect, HashRouter as Router, Route, Switch } from 'react-router-dom'
 import About from './components/About';
 import Contact from './components/Contact';
 
-import NoMatch from './components/NoMatch';
+// import NoMatch from './components/NoMatch';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
            <Route exact path='/about' component={About} />
            <Route exact path='/contact' component={Contact} />
            
-           <Route component={NoMatch} />
+           {/* <Route component={NoMatch} /> */}
          </Switch>
          <br></br>
          {/* <Footer/> */}

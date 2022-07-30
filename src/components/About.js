@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css'
 import '../App.js';
 import '../index.css';
-import '../footer.css';
+// import '../footer.css';
 
 
 import MSULogo from '../assets/images/MSU-Logo.png';
